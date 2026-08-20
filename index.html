@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryte AI — AI Support Agent for Modern Teams</title>
+  <meta name="description" content="Bryte AI reads your support inbox, drafts intelligent replies using your knowledge base, and integrates with the tools you already use. Cut support costs without cutting quality." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">Bryte<span>AI</span></a>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#savings">Cost Savings</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Request a Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <div class="hero-eyebrow">
+          <span class="badge">✦ AI-Powered Support</span>
+        </div>
+        <h1>Your support inbox,<br /><span class="gradient-text">handled intelligently.</span></h1>
+        <p>Bryte AI reads every incoming ticket, drafts a precise reply using your knowledge base, and posts it for review — before anything goes out the door. Your team stays in control. Your response time drops dramatically.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary btn-lg">Request a Demo</a>
+          <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">70%</div>
+            <div class="hero-stat-label">Faster response times</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">$0</div>
+            <div class="hero-stat-label">Seasonal staffing cost</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">100%</div>
+            <div class="hero-stat-label">Human review before send</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-badge-live">● Live</div>
+        <div class="ticket">
+          <div class="ticket-header">
+            <span class="ticket-from">From: sarah@example.com</span>
+            <span style="font-size:11px;color:#475569;">2 min ago</span>
+          </div>
+          <div class="ticket-subject">Re: Registration not going through</div>
+          <div class="ticket-body" style="margin-top:8px;">Hi, I've been trying to register for the conference but keep getting an error at checkout. My promo code isn't working either...</div>
+        </div>
+        <div class="ai-draft">
+          <div class="ai-draft-label">
+            <span>⚡</span> AI Draft — using your KB
+          </div>
+          <div class="ai-draft-text">
+            Hi Sarah, thanks for reaching out! I can help with both issues. For the checkout error, please try clearing your browser cache and using Chrome or Firefox. For your promo code, it looks like it may have expired — I've flagged this for our team to send you a fresh one within the hour...
+          </div>
+          <div class="ai-actions">
+            <button class="ai-btn ai-btn-send">✓ Send</button>
+            <button class="ai-btn ai-btn-edit">Edit</button>
+          </div>
+        </div>
+        <div style="margin-top:16px;display:flex;align-items:center;gap:8px;font-size:12px;color:#475569;">
+          <span class="status-dot"></span>
+          PII scrubbed · KB matched · Ready for review
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section-alt" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Simple by design</span>
+        <h2>From ticket to draft in seconds.</h2>
+        <p>No complex setup. No retraining your team. Bryte AI fits into your existing workflow from day one.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Ticket arrives</h3>
+          <p>A support request lands in your inbox — Help Scout, Zendesk, or wherever you work.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>AI reads & researches</h3>
+          <p>Bryte AI parses the ticket, scrubs any PII, and pulls relevant context from your knowledge base using RAG.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Draft is posted</h3>
+          <p>A precise, on-brand reply is posted as an internal note — ready for your agent to review and send.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Your team approves</h3>
+          <p>One click to send, or edit as needed. Nothing goes to a customer without a human in the loop.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Built for your workflow</span>
+        <h2>Everything you need.<br />Nothing you don't.</h2>
+        <p>Purpose-built for support teams — not a generic chatbot bolted onto your inbox.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔗</div>
+          <h3>Connects to your stack</h3>
+          <p>Native integrations with Help Scout, Zendesk, Salesforce, Slack, and more. Plug into existing workflows via webhooks and APIs — no rip-and-replace required.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>RAG-powered knowledge base</h3>
+          <p>Retrieval-Augmented Generation pulls only the most relevant articles from your KB before drafting. Answers are grounded in your documentation — not hallucinated.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>PII scrubbing built-in</h3>
+          <p>Customer names, emails, phone numbers, and account data are automatically detected and removed before any content touches an AI model. Compliance ready.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚙️</div>
+          <h3>Fully customizable</h3>
+          <p>Tune the tone, escalation rules, KB sources, and response structure for your brand. We configure everything to match your team's voice and workflows exactly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Performance reporting</h3>
+          <p>Weekly reports on draft acceptance rate, ticket volume, response time trends, and KB gaps. Know what's working and what to improve.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧩</div>
+          <h3>Custom workflow triggers</h3>
+          <p>Route tickets by category, auto-tag by intent, trigger Slack alerts on urgent issues, or sync status back to Salesforce. Build the logic your team actually needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COST SAVINGS -->
+  <section class="roi-section" id="savings">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" style="color:#60a5fa;background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.25);">The business case</span>
+        <h2>Stop paying for seasonal headcount.</h2>
+        <p style="color:#94a3b8;">A single seasonal support hire can cost $40–60K+ per year — and they still need training, management, and ramp time.</p>
+      </div>
+      <div class="roi-grid">
+        <div class="roi-numbers">
+          <div class="roi-item">
+            <div class="roi-num">~$50K</div>
+            <div class="roi-label"><strong>Typical seasonal hire cost</strong>Salary + benefits + recruiting + ramp time per year</div>
+          </div>
+          <div class="roi-item">
+            <div class="roi-num">$6K</div>
+            <div class="roi-label"><strong>Bryte AI (Business Plan)</strong>$1,500/mo × 4 months peak season = full AI coverage</div>
+          </div>
+          <div class="roi-item">
+            <div class="roi-num">&gt;85%</div>
+            <div class="roi-label"><strong>Cost savings vs. staffing</strong>With no quality tradeoff — your team still reviews every reply</div>
+          </div>
+        </div>
+        <div class="roi-copy">
+          <h3>AI handles the volume.<br />Your team handles the judgment.</h3>
+          <p>During peak periods — conference season, product launches, enrollment windows — ticket volume spikes. Bryte AI scales instantly, with no hiring lag and no per-ticket cost.</p>
+          <p>Your experienced agents focus on complex, high-value conversations. Routine tickets get fast, accurate drafts. Everyone wins.</p>
+          <ul class="roi-list">
+            <li>No onboarding time — live in days, not weeks</li>
+            <li>Scales to any ticket volume automatically</li>
+            <li>No quality risk — human approval on every reply</li>
+            <li>KB stays current — update once, AI uses it immediately</li>
+            <li>Cancel or pause anytime — no long-term contracts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORMS -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Works where you work</span>
+        <h2>Connects to your existing platforms.</h2>
+        <p>We integrate directly with the tools your team already uses — no data migration, no new software to learn.</p>
+      </div>
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-icon">📬</div>
+          <div class="platform-name">Help Scout</div>
+          <div class="platform-desc">Native inbox + KB integration</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-icon">🎫</div>
+          <div class="platform-name">Zendesk</div>
+          <div class="platform-desc">Tickets, triggers & macros</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-icon">☁️</div>
+          <div class="platform-name">Salesforce</div>
+          <div class="platform-desc">CRM sync & case management</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-icon">💬</div>
+          <div class="platform-name">Slack</div>
+          <div class="platform-desc">Alerts, escalations & digests</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-icon">📋</div>
+          <div class="platform-name">Notion / Confluence</div>
+          <div class="platform-desc">KB source integration</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-icon">🔧</div>
+          <div class="platform-name">Custom Workflows</div>
+          <div class="platform-desc">Webhooks & API integrations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Transparent pricing</span>
+        <h2>Simple, predictable pricing.</h2>
+        <p>No per-ticket fees. No surprise overages. One flat monthly rate that covers everything.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-name">Standard</div>
+          <div class="pricing-price">$500<span>/mo</span></div>
+          <div class="pricing-desc">Perfect for teams getting started with AI-assisted support.</div>
+          <ul class="pricing-features">
+            <li>Full agent setup & configuration</li>
+            <li>1 support inbox</li>
+            <li>Knowledge base up to 50 articles</li>
+            <li>PII scrubbing built-in</li>
+            <li>Cloud hosting included</li>
+            <li>Monthly review call</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-popular">Most Popular</div>
+          <div class="pricing-name">Business</div>
+          <div class="pricing-price">$1,500<span>/mo</span></div>
+          <div class="pricing-desc">For teams that need deeper customization, reporting, and workflow integration.</div>
+          <ul class="pricing-features">
+            <li>Everything in Standard</li>
+            <li>Web admin panel for KB management</li>
+            <li>Custom workflow triggers & routing</li>
+            <li>Weekly performance reports</li>
+            <li>Quarterly strategy reviews</li>
+            <li>Priority support</li>
+            <li>Additional inboxes +$500/mo each</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+        </div>
+      </div>
+      <p style="text-align:center;color:var(--text-muted);font-size:14px;margin-top:32px;">Need something custom? <a href="#contact" style="color:var(--primary);font-weight:600;">Let's talk.</a> We build bespoke integrations for enterprise and event organizations.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-copy">
+          <span class="badge">Get in touch</span>
+          <h2>Ready to see it in action?</h2>
+          <p>We'll walk you through a live demo using a sample inbox and knowledge base. No commitment, no sales pressure — just a real look at what Bryte AI can do for your team.</p>
+          <p>Most teams are up and running within a week of kickoff.</p>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">✉️</span>
+            <a href="mailto:hello@bryteai.solutions">hello@bryteai.solutions</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">🌐</span>
+            <a href="https://brytetech.solutions" target="_blank">brytetech.solutions</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">📍</span>
+            <span style="color:var(--text-muted);">Simi Valley, CA · Remote-first</span>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" action="https://formspree.io/f/REPLACE_ME" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Robert Frausto" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Work Email</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Organization</label>
+              <input type="text" id="company" name="company" placeholder="Acme Corp" />
+            </div>
+            <div class="form-group">
+              <label for="platform">Current support platform</label>
+              <select id="platform" name="platform">
+                <option value="">Select one...</option>
+                <option>Help Scout</option>
+                <option>Zendesk</option>
+                <option>Salesforce Service Cloud</option>
+                <option>Freshdesk</option>
+                <option>Email only</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell us about your support challenge</label>
+              <textarea id="message" name="message" placeholder="How many tickets per month? Peak periods? Current team size?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:15px;padding:14px;">Request a Demo →</button>
+            <div class="form-success" id="formSuccess">✓ Got it! We'll be in touch within one business day.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Bryte<span style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">AI</span></div>
+        <div class="footer-links">
+          <a href="https://brytetech.solutions" target="_blank">BryteTech Solutions</a>
+          <a href="mailto:hello@bryteai.solutions">hello@bryteai.solutions</a>
+        </div>
+        <div class="footer-copy">© 2026 BryteTech Solutions LLC</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth form handling
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button[type=submit]');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.reset();
+          success.style.display = 'block';
+          btn.textContent = '✓ Sent!';
+        } else {
+          btn.textContent = 'Try again';
+          btn.disabled = false;
+        }
+      } catch {
+        btn.textContent = 'Try again';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
